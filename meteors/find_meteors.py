@@ -16,7 +16,10 @@ def calc_dist(lat1, lon1, lat2, lon2):
 
 def get_dist(meteor):
     return meteor.get('distance', math.inf)
-    
+
+# if __name__ == '__main__':
+# The code can tell if its a script or imported as a module
+# if it is called as a module, this wont run
 if __name__ == '__main__':
     my_loc = (33.5757706, -117.6493759)
 # a Third comment
