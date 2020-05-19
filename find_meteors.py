@@ -31,5 +31,5 @@ if __name__ == '__main__':
                                        my_loc[1])
 
     meteor_data.sort(key=get_dist)
-#some notes here
+# some notes here
     print(meteor_data[0:10])
