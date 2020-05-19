@@ -19,7 +19,7 @@ def get_dist(meteor):
     
 if __name__ == '__main__':
     my_loc = (33.5757706, -117.6493759)
-
+# a Third comment
     meteor_resp = requests.get('https://data.nasa.gov/resource/y77d-th95.json')
     meteor_data = meteor_resp.json()
 # a second set of test comments
