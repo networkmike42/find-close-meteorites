@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     meteor_resp = requests.get('https://data.nasa.gov/resource/y77d-th95.json')
     meteor_data = meteor_resp.json()
-
+# a second set of test comments
     for meteor in meteor_data:
         if not ('reclat' in meteor and 'reclong' in meteor): continue
         meteor['distance'] = calc_dist(float(meteor['reclat']),
